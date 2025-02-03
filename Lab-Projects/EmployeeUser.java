@@ -28,7 +28,7 @@ public class EmployeeUser {
         System.out.print("Enter Salary: ");
         double salary = sc.nextDouble();
         
-        Employee emp = new Employee();
+        EmployeeUser emp = new EmployeeUser();
         emp.setInfo(name, emp_ID, salary);
         emp.display();
         
