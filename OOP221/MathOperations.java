@@ -10,17 +10,11 @@ public class MathOperations {
         
         System.out.print("Enter a number: ");
         double number = sc.nextDouble();
-        double absolute = Math.abs(number);
-        double floor = Math.floor(number);
-        double ceil = Math.ceil(number);
-        long round = Math.round(number);
-        double sqrt = Math.sqrt(number);
-        
-        System.out.println("\nAbsolute value: "+absolute);
-        System.out.println("Floor value: "+floor);
-        System.out.println("Ceil value: "+ceil);
-        System.out.println("Round value: "+round);
-        System.out.println("Square Root value: "+sqrt);
+        System.out.println("\nAbsolute value: " + Math.abs(number));
+        System.out.println("Floor value: " + Math.floor(number));
+        System.out.println("Ceil value: " + Math.ceil(number));
+        System.out.println("Round value: " + Math.round(number));
+        System.out.println("Square root: " + Math.sqrt(number));
         
         sc.close();
     }
