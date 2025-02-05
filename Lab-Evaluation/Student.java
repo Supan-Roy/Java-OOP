@@ -9,7 +9,7 @@ public class Student {
     private String studentName;
     private double balance;
 
-    public void paymentAccount(int studentId, String studentName){
+    public paymentAccount(int studentId, String studentName){
         this.studentId = studentId;
         this.studentName = studentName;
     }
@@ -38,6 +38,7 @@ public class Student {
         double balance = sc.nextDouble();
         
         Student s1 = new Student();
+        s1.deposit(depositAmount);
         s1.displayBalance(balance);
         
         sc.close();
