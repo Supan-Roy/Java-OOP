@@ -27,6 +27,7 @@ class Dog extends Animal{
     void eat(){
         System.out.println(name + " is eating food");
     }
+     //method specific to Dog
     void bark(){
         System.out.println(name + " is barking");
     }
