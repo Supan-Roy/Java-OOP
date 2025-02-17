@@ -9,7 +9,7 @@ class Base{
         return x;
     }
     public void setX(int x){
-        System.err.println("This is a Base and setting X now");
+        System.out.println("This is a Base and setting X now");
         this.x=x;
     }
    public void displayBase(){
