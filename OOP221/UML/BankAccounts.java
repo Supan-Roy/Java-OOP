@@ -1,4 +1,3 @@
-package com.mycompany.midterm;
 /**
  *
  * @author supan
