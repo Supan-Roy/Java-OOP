@@ -73,7 +73,7 @@ public class SchoolManagementSystem {
         
         //Create School and set name
         School school = new School();
-        school.setSchoolName("Lord Shanto Academy");
+        school.setSchoolName("Downtown Legends Academy");
         
         //Add classrooms to school
         school.addClassroom(class1);
