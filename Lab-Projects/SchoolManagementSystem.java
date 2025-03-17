@@ -1,7 +1,7 @@
 package com.mycompany.schoolmanagementsystem;
 /**
  *
- * @author supanr
+ * @author supan
  */
 import java.util.ArrayList;
 import java.util.List;
