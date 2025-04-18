@@ -4,7 +4,7 @@ interface UserActions {
     void logout();
 }
 
-// Abstract Class - common properties and some methods
+// Abstract Class - common properties and some methods 
 abstract class Person implements UserActions {
     protected String id;
     protected String name;
