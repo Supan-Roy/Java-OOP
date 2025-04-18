@@ -2,7 +2,7 @@
 interface UserActions {
     void login();
     void logout();
-} 
+}
 
 // Abstract Class - common properties and some methods
 abstract class Person implements UserActions {
